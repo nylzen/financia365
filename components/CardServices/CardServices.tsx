@@ -21,7 +21,7 @@ const CardServices = (props: Props) => {
       />
       <h2>{title}</h2>
       <p>{description}</p>
-      <button className='btn__primary'>Agendar asesoría</button>
+      <button className='btn btn__primary'>Agendar asesoría</button>
     </div>
   );
 };

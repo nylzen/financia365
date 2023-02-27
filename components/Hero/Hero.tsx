@@ -15,7 +15,7 @@ const Hero = () => {
             En Financia365, nos esforzamos por brindar una experiencia de
             hipoteca amigable y sin estrés.
           </p>
-          <button className='btn__primary'>Agendar asesoría</button>
+          <button className='btn btn__primary'>Agendar asesoría</button>
         </div>
         <div className='hero__img'>
           <Image src={HeroImg} placeholder='blur' alt='Hero Image' />
