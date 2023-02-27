@@ -1,5 +1,7 @@
-.hero {
+.heroSection {
   background: var(--secondary-bg);
+}
+.hero {
   display: flex;
   justify-content: space-between;
   align-items: center;

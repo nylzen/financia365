@@ -11,6 +11,11 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .btn__primary {
   background: var(--primary-color);
   color: var(--black);

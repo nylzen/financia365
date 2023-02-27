@@ -10,17 +10,18 @@ interface Props {
 
 const Navbar = ({ pathNames }: Props) => {
   return (
-    <header>
+    <header className={navbarStyles.Header}>
       <nav className={navbarStyles.Navbar}>
         <Link href='/'>
           <Image src={Logo} alt='logo' />
         </Link>
-
-        {pathNames.map(pathName => (
-          <Link key={pathName.path} href={pathName.path}>
-            {pathName.name}
-          </Link>
-        ))}
+        <ul className={navbarStyles.NavbarMenu}>
+          {pathNames.map(pathName => (
+            <Link key={pathName.path} href={pathName.path}>
+              {pathName.name}
+            </Link>
+          ))}
+        </ul>
       </nav>
     </header>
   );

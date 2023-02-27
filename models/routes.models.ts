@@ -3,6 +3,10 @@ export const Routes = {
     path: '/',
     name: 'Home',
   },
+  ABOUT: {
+    path: '#about',
+    name: 'About',
+  },
 };
 
 export interface Route {

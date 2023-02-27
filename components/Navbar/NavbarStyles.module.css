@@ -1,3 +1,7 @@
+.Header {
+  background: var(--secondary-bg);
+}
+
 .Navbar {
   display: flex;
   justify-content: space-between;
@@ -6,5 +10,11 @@
   height: 4rem;
   max-width: 1500px;
   margin: 0 auto;
-  background: var(--secondary-bg);
+}
+
+.NavbarMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
