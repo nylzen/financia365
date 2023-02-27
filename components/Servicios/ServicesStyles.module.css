@@ -1,0 +1,28 @@
+.Services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  max-width: 1500px;
+  background: var(--black);
+  color: white;
+  border-radius: 3rem;
+  margin: 5rem auto;
+
+  padding: 2rem;
+}
+
+.ServicesHeading {
+  font-size: 3rem;
+  max-width: 650px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.ServiciosCards {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}

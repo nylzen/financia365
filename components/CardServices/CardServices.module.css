@@ -1,0 +1,24 @@
+.CardService {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+  max-width: 350px;
+  background: white;
+  color: var(--black);
+  padding: 1.2rem;
+  border-radius: 2rem 2rem 1rem 1rem;
+}
+
+.CardImg {
+  width: 100%;
+}
+
+.CardService p {
+  width: 100%;
+}
+
+.CardService button {
+  margin-top: 20px;
+}

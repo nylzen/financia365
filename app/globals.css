@@ -16,6 +16,12 @@ a {
   color: inherit;
 }
 
+.heading {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--black);
+}
+
 .btn__primary {
   background: var(--primary-color);
   color: var(--black);

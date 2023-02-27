@@ -1,22 +1,16 @@
-import Image from 'next/image';
+import CardServices from '../CardServices/CardServices';
 import { servicesData } from './data';
+import ServicesStyles from './ServicesStyles.module.css';
 
 const Servicios = () => {
   return (
-    <section id='about'>
-      <h3>Un futuro financiero sólido, comenzando hoy</h3>
-      <div className='servicios__cards'>
+    <section id='about' className={ServicesStyles.Services}>
+      <h3 className={ServicesStyles.ServicesHeading}>
+        Un futuro financiero sólido, comenzando hoy
+      </h3>
+      <div className={ServicesStyles.ServiciosCards}>
         {servicesData.map(service => (
-          <div className='servicios__card' key={service.id}>
-            <Image
-              src={service.image}
-              alt={service.title}
-              width={300}
-              height={230}
-            />
-            <h2>{service.title}</h2>
-            <p>{service.description}</p>
-          </div>
+          <CardServices {...service} key={service.id} />
         ))}
       </div>
     </section>
