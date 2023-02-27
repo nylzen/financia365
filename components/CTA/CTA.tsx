@@ -1,7 +1,9 @@
+import CTAStyles from './CTA.module.css';
+
 const CTA = () => {
   return (
-    <section>
-      <h3>
+    <section className={CTAStyles.CTASection}>
+      <h3 className={CTAStyles.CTAHeading}>
         ¡Toma acción ahora y consigue el dinero que necesitas para tus proyectos
         y metas!
       </h3>

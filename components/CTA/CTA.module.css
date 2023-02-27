@@ -1,0 +1,21 @@
+.CTASection {
+  background: var(--primary-color);
+  max-width: 1150px;
+  margin: 2rem auto;
+  border-radius: 2rem;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 40px;
+}
+
+.CTAHeading {
+  font-size: 2rem;
+  max-width: 750px;
+}
+
+.CTASection p {
+  max-width: 750px;
+}
