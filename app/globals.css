@@ -27,6 +27,13 @@ a {
   border: none;
   border-radius: 0.5rem;
   cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: var(--black);
+  color: #fff;
 }
 
 .btn__primary {
@@ -41,4 +48,9 @@ a {
   border: none;
   border-radius: 0.5rem;
   cursor: pointer;
+}
+
+.btn__secondary:hover {
+  background: white;
+  color: var(--black);
 }
