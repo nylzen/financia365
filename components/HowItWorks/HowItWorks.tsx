@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import HowItWorksImage from '../../public/images/howitworks.png';
+import HowItWorksImage from '../../public/images/HowItWorks.png';
 import HowItWorksStyles from './HowItWorksStyles.module.css';
 
 const HowItWorks = () => {
