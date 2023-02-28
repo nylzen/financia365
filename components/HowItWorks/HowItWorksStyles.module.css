@@ -1,0 +1,44 @@
+.HowItWorks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 8rem auto;
+  max-width: 1200px;
+}
+
+.HowItWorksHeading {
+  font-size: 2.5rem;
+}
+
+.HowInfoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  padding: 3rem 0;
+}
+
+.HowInfoContainer img {
+  width: 40%;
+  height: auto;
+}
+
+.HowInfoStepsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.HowStep {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 550px;
+}
+
+.HowStep h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}

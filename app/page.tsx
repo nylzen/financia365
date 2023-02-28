@@ -1,4 +1,4 @@
-import { CTA, Hero, Servicios } from '@/components';
+import { CTA, Hero, HowItWorks, Servicios } from '@/components';
 
 const page = () => {
   return (
@@ -6,6 +6,7 @@ const page = () => {
       <Hero />
       <Servicios />
       <CTA />
+      <HowItWorks />
     </>
   );
 };
