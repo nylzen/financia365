@@ -1,0 +1,20 @@
+.Contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin: 8rem auto;
+}
+
+.Form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.Map {
+  border: none;
+  border-radius: 1rem;
+}
