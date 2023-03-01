@@ -6,9 +6,9 @@ const Servicios = () => {
   return (
     <section id='about' className={ServicesStyles.Services}>
       <div className={ServicesStyles.ServicesText}>
-        <h3 className={ServicesStyles.ServicesHeading}>
+        <h2 className={ServicesStyles.ServicesHeading}>
           Un futuro financiero sólido, comenzando hoy
-        </h3>
+        </h2>
         <p className={ServicesStyles.ServicesP}>
           Somos asesores expertos en el sector inmobiliario y financiero, eso
           nos permite acompañarte en todo el trayecto hasta la obtención de tu

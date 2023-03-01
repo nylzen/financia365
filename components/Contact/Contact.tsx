@@ -17,6 +17,7 @@ const Contact = () => {
         </form>
       </div>
       <iframe
+        title='Ubicación Financia'
         src={mapUrl}
         width='400'
         height='400'
