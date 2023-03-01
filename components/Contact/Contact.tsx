@@ -20,7 +20,6 @@ const Contact = () => {
         src={mapUrl}
         width='400'
         height='400'
-        loading='lazy'
         className={ContactStyles.Map}
       ></iframe>
     </section>

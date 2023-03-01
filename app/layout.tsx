@@ -12,7 +12,14 @@ export default function RootLayout({
     <html lang='en' className={poppins.className}>
       <head />
       <body>
-        <Navbar pathNames={[Routes.HOME, Routes.ABOUT]} />
+        <Navbar
+          pathNames={[
+            Routes.HOME,
+            Routes.QUIENES_SOMOS,
+            Routes.SERVICIOS,
+            Routes.CONTACTO,
+          ]}
+        />
         {children}
       </body>
     </html>

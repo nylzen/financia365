@@ -1,11 +1,19 @@
 export const Routes = {
   HOME: {
     path: '/',
-    name: 'Home',
+    name: 'Inicio',
   },
-  ABOUT: {
-    path: '#about',
-    name: 'About',
+  QUIENES_SOMOS: {
+    path: '/',
+    name: 'Quienes Somos',
+  },
+  SERVICIOS: {
+    path: '/',
+    name: 'Servicios',
+  },
+  CONTACTO: {
+    path: '/',
+    name: 'Contacto',
   },
 };
 

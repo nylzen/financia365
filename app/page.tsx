@@ -1,13 +1,23 @@
-import { Contact, CTA, Hero, HowItWorks, Servicios } from '@/components';
+import {
+  Contact,
+  CTA,
+  Footer,
+  Hero,
+  HowItWorks,
+  Servicios,
+} from '@/components';
 
 const page = () => {
   return (
     <>
-      <Hero />
-      <Servicios />
-      <CTA />
-      <HowItWorks />
-      <Contact />
+      <main>
+        <Hero />
+        <Servicios />
+        <CTA />
+        <HowItWorks />
+        <Contact />
+      </main>
+      <Footer />
     </>
   );
 };
