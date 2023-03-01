@@ -1,11 +1,4 @@
-import {
-  Contact,
-  CTA,
-  Footer,
-  Hero,
-  HowItWorks,
-  Servicios,
-} from '@/components';
+import { Contact, CTA, Hero, HowItWorks, Servicios } from '@/components';
 
 const page = () => {
   return (
@@ -17,7 +10,6 @@ const page = () => {
         <HowItWorks />
         <Contact />
       </main>
-      <Footer />
     </>
   );
 };

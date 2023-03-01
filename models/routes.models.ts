@@ -4,7 +4,7 @@ export const Routes = {
     name: 'Inicio',
   },
   QUIENES_SOMOS: {
-    path: '/',
+    path: '/nosotros',
     name: 'Quienes Somos',
   },
   SERVICIOS: {

@@ -1,4 +1,4 @@
-import { Navbar } from '@/components';
+import { Footer, Navbar } from '@/components';
 import { poppins } from '@/fonts/fonts';
 import { Routes } from '@/models';
 import './globals.css';
@@ -21,6 +21,7 @@ export default function RootLayout({
           ]}
         />
         {children}
+        <Footer />
       </body>
     </html>
   );
