@@ -7,4 +7,5 @@ export { default as HowItWorks } from './HowItWorks/HowItWorks';
 export { default as Navbar } from './Navbar/Navbar';
 export * from './Servicios/data';
 export { default as Servicios } from './Servicios/Servicios';
+export { default as Testimonials } from './Testimonials/Testimonials';
 export { default as Input } from './UI/Input/Input';
