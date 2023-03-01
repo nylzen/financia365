@@ -18,12 +18,7 @@ const Hero = () => {
           <button className='btn btn__primary'>Agendar asesoría</button>
         </div>
         <div className='hero__img'>
-          <Image
-            src={HeroImg}
-            placeholder='blur'
-            alt='Hero Image'
-            loading='lazy'
-          />
+          <Image src={HeroImg} placeholder='blur' alt='Hero Image' />
         </div>
       </div>
     </section>
