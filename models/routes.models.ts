@@ -8,11 +8,11 @@ export const Routes = {
     name: 'Quienes Somos',
   },
   SERVICIOS: {
-    path: '/',
+    path: '#servicios',
     name: 'Servicios',
   },
   CONTACTO: {
-    path: '/',
+    path: '#contacto',
     name: 'Contacto',
   },
 };
