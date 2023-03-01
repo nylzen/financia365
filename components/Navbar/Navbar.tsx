@@ -17,10 +17,8 @@ const Navbar = ({ pathNames }: Props) => {
         </Link>
         <ul className={navbarStyles.NavbarMenu}>
           {pathNames.map(pathName => (
-            <li>
-              <Link key={pathName.path} href={pathName.path}>
-                {pathName.name}
-              </Link>
+            <li key={pathName.path}>
+              <Link href={pathName.path}>{pathName.name}</Link>
             </li>
           ))}
         </ul>

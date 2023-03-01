@@ -24,6 +24,7 @@ const Hero = () => {
             alt='Hero Image'
             width={485}
             height={485}
+            loading='lazy'
           />
         </div>
       </div>

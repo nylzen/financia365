@@ -15,22 +15,38 @@ const Footer = () => {
           </p>
           <ul className={FooterStyles.FooterRedes}>
             <li>
-              <Link href='https://www.linkedin.com' target='_blank'>
+              <Link
+                href='https://www.linkedin.com'
+                target='_blank'
+                aria-label='Link a Linkedin de Financia365'
+              >
                 <BsLinkedin />
               </Link>
             </li>
             <li>
-              <Link href='https://www.facebook.com' target='_blank'>
+              <Link
+                href='https://www.facebook.com'
+                target='_blank'
+                aria-label='Link a Facebook de Financia365'
+              >
                 <BsFacebook />
               </Link>
             </li>
             <li>
-              <Link href='https://www.instagram.com' target='_blank'>
+              <Link
+                href='https://www.instagram.com'
+                target='_blank'
+                aria-label='Link a Instagram de Financia365'
+              >
                 <BsInstagram />
               </Link>
             </li>
             <li>
-              <Link href='https://www.twitter.com' target='_blank'>
+              <Link
+                href='https://www.twitter.com'
+                target='_blank'
+                aria-label='Link a Twitter de Financia365'
+              >
                 <BsTwitter />
               </Link>
             </li>
