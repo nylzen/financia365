@@ -10,6 +10,7 @@
   height: 4rem;
   max-width: 1500px;
   margin: 0 auto;
+  width: 100%;
 }
 
 .NavbarMenu {
@@ -17,4 +18,47 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
+}
+
+.BurgerMenu {
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .Navbar {
+    align-items: center;
+    position: relative;
+  }
+  .BurgerMenu {
+    display: flex;
+  }
+
+  .NavbarMenu {
+    position: absolute;
+    transform: translateX(200%);
+    transition: all 0.3s ease;
+    width: 100%;
+    height: 100vh;
+    top: 150px;
+  }
+
+  .OpenMenu {
+    transition: all 0.3s ease;
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 149px);
+    top: 150px;
+    left: 0;
+    transform: translateX(0);
+    background-color: var(--secondary-bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+    font-size: 2rem;
+  }
 }

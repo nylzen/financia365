@@ -3,6 +3,7 @@
 }
 .hero {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding: 5rem;
@@ -22,4 +23,20 @@
   font-size: 3rem;
   font-weight: 700;
   color: var(--black);
+}
+
+@media (max-width: 768px) {
+  .hero {
+    justify-content: center;
+    gap: 2.2rem;
+  }
+  .hero__text {
+    align-items: center;
+    text-align: center;
+    order: 2;
+  }
+
+  .hero__text p {
+    max-width: 400px;
+  }
 }

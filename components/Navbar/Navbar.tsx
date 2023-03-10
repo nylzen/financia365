@@ -1,6 +1,7 @@
 import { Route } from '@/models';
 import Image from 'next/image';
 import Link from 'next/link';
+import { GiHamburgerMenu } from 'react-icons/gi';
 import Logo from '../../public/images/logo.png';
 import navbarStyles from './NavbarStyles.module.css';
 
@@ -22,6 +23,9 @@ const Navbar = ({ pathNames }: Props) => {
             </li>
           ))}
         </ul>
+        <button className={navbarStyles.BurgerMenu}>
+          <GiHamburgerMenu />
+        </button>
       </nav>
     </header>
   );
