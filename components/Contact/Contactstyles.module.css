@@ -18,3 +18,12 @@
   border: none;
   border-radius: 1rem;
 }
+
+@media (max-width: 768px) {
+  .Contact {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+}

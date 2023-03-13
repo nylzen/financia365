@@ -1,4 +1,11 @@
-export const servicesData = [
+interface Service {
+  id: number;
+  title: string;
+  description: string;
+  image: string;
+}
+
+export const servicesData: Service[] = [
   {
     id: 1,
     title: 'Localización',
