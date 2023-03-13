@@ -7,7 +7,6 @@ const page = () => {
         <Hero />
         <Servicios />
         <CTA />
-        <HowItWorks />
         <Contact />
       </main>
     </>
